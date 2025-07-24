@@ -64,12 +64,12 @@ This project serves as practical training in **web scraping**, **data processing
 
 ---
 
-## 🔗 Data Source
-
+## 🔗 Data Source  
 The dataset was taken from:  
 🌐 [https://www.numbeo.com/quality-of-life/rankings.jsp?title=2025](https://www.numbeo.com/quality-of-life/rankings.jsp?title=2025)
 
-The table was saved manually and parsed from the local HTML file using BeautifulSoup.
+The table was saved manually and parsed from the local HTML file using BeautifulSoup.  
+📄 [View local HTML file (`quality_of_life_2025.html`)](https://github.com/CloudDataPalina/quality-of-life-2025/blob/main/data/quality_of_life_2025.html)
 
 ---
 
