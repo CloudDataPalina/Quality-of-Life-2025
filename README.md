@@ -75,17 +75,14 @@ The table was saved manually and parsed from the local HTML file using Beautiful
 
 ## 📊 Visualizations
 
-The project visualizes three horizontal bar charts ![Top 20 Cities Chart](images/top_20_indexes_2025.png)
-:
+The project visualizes three horizontal bar charts:
 - Top-20 cities by **Quality of Life**
 - Top-20 cities by **Safety**
 - Top-20 cities by **Health Care**
 
 Final charts were saved in both `.png` and `.svg` formats.
 
-
 ---
-
 
 ## 💾 Outputs
 
