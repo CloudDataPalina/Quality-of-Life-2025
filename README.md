@@ -100,7 +100,7 @@ All charts were saved in both `.png` and `.svg` formats for presentation and sca
 
 - **The Netherlands** stands out as a consistent top performer across all indexes  
 - **The Hague (Netherlands)** ranks in the Top-3 both for Quality of Life and Health Care — highlighting its strong overall appeal and balance  
-- **Middle Eastern cities** rank high in safety but not in quality of life  
+- **Middle Eastern cities** rank high in safety. The data indicates that certain Middle Eastern cities perform well in safety, while other aspects of quality of life present opportunities for improvement.
 - **Taiwan and South Korea** lead in health care  
 - Quality of life is a multi-factor concept — high safety doesn’t always mean high comfort
 
