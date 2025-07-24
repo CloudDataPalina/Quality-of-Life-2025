@@ -8,13 +8,13 @@
 ```
 Quality-of-life-2025/
 ├── data/
-│   └── quality_of_life_2025.html        # Raw HTML data export
+│   └── quality_of_life_2025.html         ← Raw HTML data export
 ├── images/
-│   ├── top_20_indexes_2025.png          # Presentation-ready chart
-│   └── top_20_indexes_2025.svg          # Scalable chart for web/print
-├── quality_of_life_2025.ipynb           # Jupyter Notebook with full analysis
-├── quality_of_life_2025.csv             # Cleaned dataset
-└── README.md                            # Project overview, structure, and documentation
+│   ├── top_20_indexes_2025.png           ← Presentation-ready chart
+│   └── top_20_indexes_2025.svg           ← Scalable chart for web/print
+├── quality_of_life_2025.ipynb            ← Jupyter Notebook with full analysis
+├── quality_of_life_2025.csv              ← Cleaned dataset
+└── README.md                             ← Project overview, structure, and documentation
 
 ```
 ---
