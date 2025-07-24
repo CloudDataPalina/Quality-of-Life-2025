@@ -49,6 +49,13 @@ This project serves as practical training in **web scraping**, **data processing
 
 ---
 
+### 🛠️ Technologies Used
+- Python (Pandas, Matplotlib)
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
 ## 🧰 Libraries Used
 
 - `BeautifulSoup` — HTML parsing and element extraction  
@@ -68,20 +75,23 @@ The table was saved manually and parsed from the local HTML file using Beautiful
 
 ## 📊 Visualizations
 
-The project visualizes three horizontal bar charts:
+The project visualizes three horizontal bar charts ![Top 20 Cities Chart](images/top_20_indexes_2025.png)
+:
 - Top-20 cities by **Quality of Life**
 - Top-20 cities by **Safety**
 - Top-20 cities by **Health Care**
 
 Final charts were saved in both `.png` and `.svg` formats.
 
+
 ---
+
 
 ## 💾 Outputs
 
-- `quality_of_life_2025.csv` — cleaned dataset  
-- `top_20_indexes_2025.png` — chart image for presentation  
-- `top_20_indexes_2025.svg` — scalable chart for web or print  
+- [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset
+- [`top_20_indexes_2025.png`](./images/top_20_indexes_2025.png) — chart image for presentation
+- [`top_20_indexes_2025.svg`](./images/top_20_indexes_2025.svg) — scalable chart for web or print
 
 ---
 
