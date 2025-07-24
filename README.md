@@ -5,7 +5,7 @@
 ---
 
 ## 📂 Project Structure
-
+```
 quality-of-life-2025/
 ├── data/
 │ └── quality_of_life_2025.html # Original HTML exported from Numbeo
@@ -15,7 +15,7 @@ quality-of-life-2025/
 │ ├── top_20_indexes_2025.png # Final charts in PNG format
 │ └── top_20_indexes_2025.svg # Final charts in SVG format
 └── README.md # Project documentation and overview
-
+```
 ---
 
 ## 📖 Introduction
