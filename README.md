@@ -6,7 +6,7 @@
 
 ## 📂 Project Structure
 ```
-quality-of-life-2025/
+Quality-of-life-2025/
 ├── data/
 │ └── quality_of_life_2025.html      # Original HTML exported from Numbeo
 ├── quality_of_life_2025.ipynb       # Jupyter Notebook with full analysis
