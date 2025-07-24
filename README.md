@@ -1,6 +1,8 @@
 # 🌍 Quality-of-life-2025
 
-**Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).**
+📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Quality-of-Life-2025/blob/main/quality_of_life_2025.ipynb)
+
+Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).
 
 ---
 
