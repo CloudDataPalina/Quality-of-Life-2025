@@ -1,4 +1,4 @@
-# 🌍 quality-of-life-2025
+# 🌍 Quality-of-life-2025
 
 **Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).**
 
@@ -20,47 +20,37 @@ quality-of-life-2025/
 
 ## 📖 Introduction
 
-In this mini-project, I analyzed the quality of life in the world’s major cities for the year 2025.
+This mini-project analyzes the quality of life in major world cities for 2025.
 
-I selected the Top-20 cities to ensure broader geographic diversity and avoid repetition caused by one country dominating the top rankings.
+To ensure geographic diversity, I selected the Top-20 cities, avoiding dominance by any single country.
 
-The source was the Numbeo website, but as the required table could not be extracted directly using `requests`, I manually saved the HTML page and used it as the source for parsing.
+The data was sourced from Numbeo. Since the table couldn’t be extracted via `requests`, I manually saved the HTML page and parsed it using `BeautifulSoup`.
 
-With `BeautifulSoup`, I extracted the table containing the full set of quality-of-life metrics (e.g., quality of life, safety, health care, cost of living, climate).
-
-From all available metrics, I selected **three key indexes** for detailed visualization:
+From the full dataset, I focused on **three key indexes** for visualization:
 - Quality of Life Index  
 - Safety Index  
 - Health Care Index  
 
-These are the most publicly relevant indicators — they reflect the balance between comfort, security, and access to medical services.
+These metrics best reflect overall comfort, security, and access to medical care.
 
 ---
 
 ## 🎯 Project Goal
 
-***Project Goal*** — to extract data on the quality of life in cities around the world for the year **2025** from an HTML document using web scraping, convert it into a convenient format with **pandas**, and visualize the **Top 20 cities** based on the following key indexes:
-
-- Quality of Life Index  
-- Safety Index  
-- Health Care Index
+***Project Goal*** — extract 2025 quality-of-life data for cities worldwide from an HTML document using web scraping, transform it with **pandas**, and visualize the **Top 20 cities**.
 
 This project serves as practical training in **web scraping**, **data processing**, and **data visualization using Python**.
 
 ---
 
-### 🛠️ Technologies Used
-- Python (Pandas, Matplotlib)
-- Jupyter Notebook
-- Git & GitHub
+## 💼 Skills & Tools
 
----
-
-## 🧰 Libraries Used
-
-- `BeautifulSoup` — HTML parsing and element extraction  
-- `pandas` — data processing and analysis  
-- `matplotlib` — visualization of Top-20 cities  
+- `Python`: core programming language  
+- `pandas`: data transformation and cleaning  
+- `BeautifulSoup`: HTML parsing and extraction  
+- `matplotlib`: charting and visualization  
+- `Jupyter Notebook`: interactive coding environment  
+- `Git & GitHub`: version control and public repository hosting
 
 ---
 
@@ -75,35 +65,36 @@ The table was saved manually and parsed from the local HTML file using Beautiful
 
 ## 📊 Visualizations
 
-The project visualizes three horizontal bar charts:
-- Top-20 cities by **Quality of Life**
-- Top-20 cities by **Safety**
-- Top-20 cities by **Health Care**
+The project includes three horizontal bar charts:
+- Top 20 cities by **Quality of Life**
+- Top 20 cities by **Safety**
+- Top 20 cities by **Health Care**
 
-Final charts were saved in both `.png` and `.svg` formats.
+All charts were saved in both `.png` and `.svg` formats for presentation and scalable usage.
 
 ---
 
-## 💾 Outputs
+## 💾 Output Files
 
-- [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset
-- [`top_20_indexes_2025.png`](./images/top_20_indexes_2025.png) — chart image for presentation
-- [`top_20_indexes_2025.svg`](./images/top_20_indexes_2025.svg) — scalable chart for web or print
+- [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset ready for analysis
+- [`top_20_indexes_2025.png`](./images/top_20_indexes_2025.png) — high-resolution image for reports or presentations
+- [`top_20_indexes_2025.svg`](./images/top_20_indexes_2025.svg) — vector version for web or print use
 
 ---
 
 ## ✅ Summary
 
-- Parsed an HTML table using BeautifulSoup  
-- Converted data into pandas DataFrame  
-- Built three visualizations using matplotlib  
-- Saved final results in CSV, PNG, and SVG formats
+- Parsed a local HTML file using BeautifulSoup  
+- Converted the extracted data into a pandas DataFrame  
+- Analyzed the data and built three visualizations using matplotlib  
+- Saved the results in CSV, PNG, and SVG formats
 
 ---
 
 ## 📌 Insights
 
 - **The Netherlands** stands out as a consistent top performer across all indexes  
+- **The Hague** ranks in the Top-3 both for Quality of Life and Health Care — showing its strong overall appeal  
 - **Middle Eastern cities** rank high in safety but not in quality of life  
 - **Taiwan and South Korea** lead in health care  
 - Quality of life is a multi-factor concept — high safety doesn’t always mean high comfort
