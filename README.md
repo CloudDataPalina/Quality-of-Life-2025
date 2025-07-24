@@ -30,6 +30,7 @@ From the full dataset, I focused on **three key indexes** for visualization:
 - Quality of Life Index  
 - Safety Index  
 - Health Care Index  
+
 These metrics best reflect overall comfort, security, and access to medical care.
 
 ---
