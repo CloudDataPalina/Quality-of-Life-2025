@@ -4,7 +4,7 @@
 
 Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).  
 This project explores the quality of life across global cities in 2025 by parsing and analyzing data from Numbeo.  
-Using Python, pandas, BeautifulSoup, and matplotlib, it visualizes city rankings in Quality of Life, Safety, and Health Care to uncover patterns and standout performers.
+The results highlight regional differences and showcase standout cities in terms of safety, healthcare, and overall living conditions.
 
 ---
 
