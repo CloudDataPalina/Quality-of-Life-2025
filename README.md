@@ -1,5 +1,4 @@
-# 🌍 Quality-of-Life 2025 ![Status](https://img.shields.io/badge/status-passed-brightgreen?style=flat-square)
-
+# 🌍 Quality-of-Life 2025 
 ![Status](https://img.shields.io/badge/status-passed-green)
 
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Quality-of-Life-2025/blob/main/quality_of_life_2025.ipynb)
