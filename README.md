@@ -117,7 +117,7 @@ pip install -r requirements.txt
 
 # 3. Run the notebook
 # Open `quality_of_life_2025.ipynb` in Jupyter Notebook and run all cells step by step
-
+```
 ---
 
 ## 📊 Visualizations
