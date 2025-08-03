@@ -112,7 +112,7 @@ cd Quality-of-Life-2025
 pip install -r requirements.txt
 
 # 3. Run the notebook
-# Open `quality_of_life_2025.ipynb` in Jupyter Notebook and run all cells step by step
+python src/etl_quality.py
 ```
 ---
 
