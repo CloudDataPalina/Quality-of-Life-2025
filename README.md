@@ -102,7 +102,7 @@ All charts were saved in both `.png` and `.svg` formats for presentation and sca
 
 ---
 
-## 🚀 How to Run
+## ⚙️ How to Run
 
 ### 1. Clone the repository
 ```bash
