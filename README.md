@@ -1,5 +1,9 @@
 # 🌍 Quality-of-life-2025
 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/status-complete-success)]()
+[![License](https://img.shields.io/badge/license-MIT-green)]()
+
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Quality-of-Life-2025/blob/main/quality_of_life_2025.ipynb)
 
 Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).  
@@ -13,6 +17,8 @@ The results highlight regional differences and showcase standout cities in terms
 Quality-of-life-2025/
 ├── data/
 │   └── quality_of_life_2025.html         ← Raw HTML data export
+├── src/
+│ └── etl_quality.py                      ← Python script for automated ETL (optional)
 ├── top_20_indexes_2025.png               ← Presentation-ready chart
 ├── top_20_indexes_2025.svg               ← Scalable chart for web/print
 ├── quality_of_life_2025.ipynb            ← Jupyter Notebook with full analysis
@@ -21,6 +27,7 @@ Quality-of-life-2025/
 └── README.md                             ← Project overview, structure, and documentation
 
 ```
+
 ---
 
 ## 📖 Introduction
@@ -59,7 +66,18 @@ This project serves as practical training in **web scraping**, **data processing
 
 ---
 
-## 🔗 Data Source  
+## ✨ Features
+
+- Manual HTML data ingestion (when auto-scraping fails)  
+- Data cleaning and transformation with pandas  
+- Three custom-built visualizations with matplotlib  
+- Charts saved in multiple formats for flexible use  
+- Clear summary of top-performing cities by category  
+
+---
+
+## 🔗 Data Source
+
 The dataset was taken from:  
 🌐 [https://www.numbeo.com/quality-of-life/rankings.jsp?title=2025](https://www.numbeo.com/quality-of-life/rankings.jsp?title=2025)
 
@@ -81,9 +99,43 @@ All charts were saved in both `.png` and `.svg` formats for presentation and sca
 
 ## 💾 Output Files
 
+- [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset ready for analysis  
+- [`top_20_indexes_2025.png`](./top_20_indexes_2025.png) — high-resolution image for reports or presentations  
+- [`top_20_indexes_2025.svg`](./top_20_indexes_2025.svg) — vector version for web or print use
+
+---
+
+## 🚀 How to Run
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/CloudDataPalina/Quality-of-Life-2025.git
+cd Quality-of-Life-2025
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the notebook
+# Open `quality_of_life_2025.ipynb` in Jupyter Notebook and run all cells step by step
+
+---
+
+## 📊 Visualizations
+
+The project includes three horizontal bar charts:
+- Top 20 cities by **Quality of Life**
+- Top 20 cities by **Safety**
+- Top 20 cities by **Health Care**
+
+All charts were saved in both `.png` and `.svg` formats for presentation and scalable usage.
+
+---
+
+## 💾 Output Files
+
 - [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset ready for analysis
-- [`top_20_indexes_2025.png`](./images/top_20_indexes_2025.png) — high-resolution image for reports or presentations
-- [`top_20_indexes_2025.svg`](./images/top_20_indexes_2025.svg) — vector version for web or print use
+- [`top_20_indexes_2025.png`](./top_20_indexes_2025.png) — high-resolution image for reports or presentations
+- [`top_20_indexes_2025.svg`](./top_20_indexes_2025.svg) — vector version for web or print use
 
 ---
 
