@@ -17,6 +17,7 @@ Quality-of-life-2025/
 ├── top_20_indexes_2025.svg               ← Scalable chart for web/print
 ├── quality_of_life_2025.ipynb            ← Jupyter Notebook with full analysis
 ├── quality_of_life_2025.csv              ← Cleaned dataset
+├── requirements.txt                      ← Project dependencies
 └── README.md                             ← Project overview, structure, and documentation
 
 ```
