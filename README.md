@@ -1,9 +1,5 @@
 # 🌍 Quality-of-life-2025
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![Status](https://img.shields.io/badge/status-complete-success)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
-
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Quality-of-Life-2025/blob/main/quality_of_life_2025.ipynb)
 
 Data analysis and visualization of Top‑20 cities by Quality of Life, Safety, and Health Care indexes (2025).  
