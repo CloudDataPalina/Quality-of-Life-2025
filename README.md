@@ -1,5 +1,8 @@
 # 🌍 Quality-of-Life-2025  
-![Status](https://img.shields.io/badge/status-passed-brightgreen?style=flat-square)
+![status](https://img.shields.io/badge/status-passed-brightgreen)
+
+### ✅ Project Status
+This project is **functionally complete and tested**, but **open for future improvements and enhancements**.
 
 📄 [View full analysis in Jupyter Notebook](https://github.com/CloudDataPalina/Quality-of-Life-2025/blob/main/quality_of_life_2025.ipynb)
 
