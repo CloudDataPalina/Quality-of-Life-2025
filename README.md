@@ -103,7 +103,6 @@ All charts were saved in both `.png` and `.svg` formats for presentation and sca
 
 ## 🚀 How to Run
 
-```bash
 # 1. Clone the repository
 git clone https://github.com/CloudDataPalina/Quality-of-Life-2025.git
 cd Quality-of-Life-2025
@@ -111,9 +110,9 @@ cd Quality-of-Life-2025
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run the notebook
+# 3. Run the ETL pipeline script
 python src/etl_quality.py
-```
+
 ---
 
 ## ✅ Summary
