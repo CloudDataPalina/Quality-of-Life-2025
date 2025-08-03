@@ -67,13 +67,13 @@ top_health = df_2025.sort_values(by="Health Care Index", ascending=False).head(2
 
 # Display the TOP-5 cities for each index as a preview
 print("\n Top-5 cities by Quality of Life Index:")
-display(top_quality[["City", "Quality of Life Index"]].head(5))
+print(top_quality[["City", "Quality of Life Index"]].head(5))
 
 print("\n Top-5 cities by Safety Index:")
-display(top_safety[["City", "Safety Index"]].head(5))
+print(top_safety[["City", "Safety Index"]].head(5))
 
 print("\n Top-5 cities by Health Care Index:")
-display(top_health[["City", "Health Care Index"]].head(5))
+print(top_health[["City", "Health Care Index"]].head(5))
 
 
 # Create a function for plotting horizontal bar charts
