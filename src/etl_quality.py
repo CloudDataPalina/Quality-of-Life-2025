@@ -154,16 +154,10 @@ with open("quality_of_life_2025.csv", "r", encoding="utf-8") as f:
     csv_content = f.read()
     print(csv_content[:500])  # Display the first 500 characters
 
-# Import the function for displaying images in Jupyter
-from IPython.display import Image
+svg_path = "top_20_indexes_2025.svg"
+png_path = "top_20_indexes_2025.png"
 
-# Display the saved PNG chart
-Image(filename="top_20_indexes_2025.png")
-
-
-# Import the function for displaying SVG images in Jupyter
-from IPython.display import SVG
-
-# Display the saved SVG chart
-SVG(filename="top_20_indexes_2025.svg")
+# Message about the saved image files
+print(f"\nSaved PNG chart as: {png_path}")
+print(f"Saved SVG chart as: {svg_path}")
 
