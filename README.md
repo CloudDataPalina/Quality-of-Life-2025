@@ -23,7 +23,7 @@ Quality-of-life-2025/
 ├── output/
 │   └── quality_of_life_2025.csv          ← Cleaned dataset
 ├── src/
-│   └── etl_quality.py                    ← Python script for automated ETL (optional)
+│   └── quality_of_life.py                ← Python script for automated ETL (optional)
 ├── quality_of_life_2025.ipynb            ← Jupyter Notebook with full analysis
 ├── requirements.txt                      ← Project dependencies
 └── README.md                             ← Project overview, structure, and documentation
