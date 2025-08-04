@@ -118,7 +118,7 @@ cd Quality-of-Life-2025
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Run the ETL pipeline script
+### 3. Run the Python script
 ```bash
 python src/quality_of_life.py
 ```
