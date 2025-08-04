@@ -1,4 +1,6 @@
-# pip install beautifulsoup4 pandas
+# To install dependencies, run in terminal:
+# pip install beautifulsoup4 pandas matplotlib
+
 
 # Library for parsing HTML documents
 from bs4 import BeautifulSoup
