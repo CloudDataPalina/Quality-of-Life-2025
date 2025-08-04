@@ -101,9 +101,9 @@ All charts were saved in both `.png` and `.svg` formats for presentation and sca
 
 ## 💾 Output Files
 
-- [`quality_of_life_2025.csv`](./quality_of_life_2025.csv) — cleaned dataset ready for analysis  
-- [`top_20_indexes_2025.png`](./top_20_indexes_2025.png) — high-resolution image for reports or presentations  
-- [`top_20_indexes_2025.svg`](./top_20_indexes_2025.svg) — vector version for web or print use
+- [`quality_of_life_2025.csv`](./output/quality_of_life_2025.csv) — cleaned dataset ready for analysis  
+- [`top_20_indexes_2025.png`](./images/top_20_indexes_2025.png) — high-resolution image for reports or presentations  
+- [`top_20_indexes_2025.svg`](./images/top_20_indexes_2025.svg) — vector version for web or print use
 
 ---
 
