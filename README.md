@@ -120,7 +120,7 @@ pip install -r requirements.txt
 ```
 ### 3. Run the ETL pipeline script
 ```bash
-python src/etl_quality.py
+python src/quality_of_life.py
 ```
 ---
 
