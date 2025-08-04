@@ -18,11 +18,13 @@ Quality-of-life-2025/
 ├── data/
 │   └── quality_of_life_2025.html         ← Raw HTML data export
 ├── src/
-│ └── etl_quality.py                      ← Python script for automated ETL (optional)
-├── top_20_indexes_2025.png               ← Presentation-ready chart
-├── top_20_indexes_2025.svg               ← Scalable chart for web/print
+│   └── etl_quality.py                    ← Python script for automated ETL (optional)
+├── images/
+│   ├── top_20_indexes_2025.png           ← Presentation-ready chart
+│   └── top_20_indexes_2025.svg           ← Scalable chart for web/print
+├── output/
+│   └── quality_of_life_2025.csv          ← Cleaned dataset
 ├── quality_of_life_2025.ipynb            ← Jupyter Notebook with full analysis
-├── quality_of_life_2025.csv              ← Cleaned dataset
 ├── requirements.txt                      ← Project dependencies
 └── README.md                             ← Project overview, structure, and documentation
 
