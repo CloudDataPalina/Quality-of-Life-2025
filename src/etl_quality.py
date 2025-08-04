@@ -52,7 +52,7 @@ df_2025.isnull().sum()
 
 
 # Save the table to a CSV file without indexes
-df_2025.to_csv("quality_of_life_2025.csv", index=False)
+df_2025.to_csv("output/quality_of_life_2025.csv", index=False)
 
 
 # Convert the relevant columns to numeric types (in case of parsing issues)
@@ -143,21 +143,23 @@ plot_horizontal_bar(
 plt.tight_layout()
 
 # === Save the final image in two formats ===
-plt.savefig("top_20_indexes_2025.png", dpi=300)  # PNG — for presentations and reports
-plt.savefig("top_20_indexes_2025.svg")           # SVG — for scalable print or web use
+plt.savefig("images/top_20_indexes_2025.png", dpi=300)  # PNG — for presentations and reports
+plt.savefig("images/top_20_indexes_2025.svg")           # SVG — for scalable print or web use
 
 # === Display the final chart ===
 plt.show()
 
 
-with open("quality_of_life_2025.csv", "r", encoding="utf-8") as f:
+# Read the CSV file from the output folder
+with open("output/quality_of_life_2025.csv", "r", encoding="utf-8") as f:
     csv_content = f.read()
     print(csv_content[:500])  # Display the first 500 characters
 
-svg_path = "top_20_indexes_2025.svg"
-png_path = "top_20_indexes_2025.png"
+# Set paths to image files located in the images/ folder
+svg_path = "images/top_20_indexes_2025.svg"
+png_path = "images/top_20_indexes_2025.png"
 
-# Message about the saved image files
+# Print confirmation messages
 print(f"\nSaved PNG chart as: {png_path}")
 print(f"Saved SVG chart as: {svg_path}")
 
